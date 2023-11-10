@@ -1,0 +1,227 @@
+body{
+    background: #272727}
+#header{
+    position: fixed;
+    top: 0%;
+    left: -15%;
+    background-image: linear-gradient(to left, cyan, rgb(255, 105, 255), blue);
+    z-index: 9999;
+    padding: 20px;
+    width: 120%;
+    height: 3%;
+    text-align: center;
+    border: 3px solid white;
+    box-shadow: 10px 10px 10px #202020;
+    animation: 10s headerAni infinite ;
+    transition-delay: 10s;
+    transition-duration: 10s;
+}
+#instagramIcon{
+    position: absolute;
+    top: 5px;
+    left: 15%;
+    transition-delay: 1s;
+    transition-duration: 1s;
+}
+#logo{
+    position: absolute; top: -20px; left: 47%;
+    height: 100px;
+}
+#instagramIcon:hover{
+    height: 55px;
+    width: 55px;
+    position: absolute;
+    top: 2px;
+    left: 14.8%;
+    cursor: pointer;
+}
+#youtubeIcon{
+    position: absolute;
+    top: 5px;
+    left: 20%;
+    transition-delay: 1s;
+    transition-duration: 1s;
+    cursor: pointer;
+}
+#youtubeIcon:hover{
+    height: 55px;
+    width: 55px;
+    position: absolute;
+    top: 2px;
+    left: 19.8%;
+}
+#HBS{
+    position: absolute;
+    left: 60%;
+}
+.headerButtons{
+    background: #272727;
+    border: 3px solid white;
+    height: 50px;
+    color: white;
+    width: 75px;
+    border-radius: 10px;
+    position: relative;
+    top: -30px;
+    margin: 10px;
+    cursor: pointer;
+    transition-delay: 0.2s;
+    transition-duration: 0.2s;
+}
+.headerButtons:hover{
+    border: 5px solid white;
+}
+#PB{
+    position: relative;
+    top: -23px;
+}
+#acountsForm div{
+    background:  transparent;
+    height: 250px;
+    width: 150px;
+    border: 3px solid white;
+    margin: 25px;
+    float: right;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 5px #626262;
+    color: white;
+    transition-delay: 0.5s;
+    transition-duration: 0.5s;
+    border-radius: 10px;
+}
+#acountsForm h1{
+    color: white;
+}
+#acountsForm div:hover{
+    box-shadow: 0px 0px 0px 5px white;
+}
+#acountsForm{
+    height: 550px;
+    width: 40%;
+    position: absolute;
+    top: 60px;
+    left: 22%;
+    transition-delay: 0.1s;
+    transition-duration: 0.1s;
+}
+#acountsForm h1{
+    position: absolute;
+    color: white;
+}
+#discordSVG{
+    height: 125px;
+    position: absolute;
+    top: 50px;
+    left: 66.5%;
+}
+#discordB h1{
+    position: absolute;
+    top: 170px;
+    left: 71.5%;
+}
+#instagramSVG{
+    position: absolute;
+    top: 60px;
+    left: 30.5%;
+    height: 110px;
+}
+#instagramB h1{
+    position: absolute;
+    top: 170px;
+    left: 31%;
+}
+#facebookSVG{
+    position: absolute;
+    top: 360px;
+    left: 29%;
+    height: 120px;
+}
+#facebookB h1{
+    position: absolute;
+    top: 490px;
+    left: 32%;
+}
+#youtubeSVG2{
+    position: absolute;
+    left: 69%;
+    top: 350px;
+}
+#idk{
+    position: absolute;
+    left: 70.5%;
+    top: 488px;
+}
+#exit{
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 3px;
+    border-image: linear-gradient(to left, cyan, rgb(255, 105, 255), blue) 1;
+    background: #272727;
+    color: white;
+    height: 50px;
+    width: 100px;
+    position: absolute;
+    top: 1000px;
+    left: 42%;
+    cursor: pointer;
+}
+@media (max-width:1023px){
+    #youtubeSVG2{
+        position: absolute;
+        left: 71.7%;
+    }
+    #idk{
+        position: absolute;
+        left: 72.5%;
+        top: 488px;
+    }
+    #instagramSVG{
+        position: absolute;
+        left: 35.7%;
+    }
+    #instagramB h1{
+        position: absolute;
+        left: 35.5%;
+        top: 170px;
+    }
+    #discordSVG{
+        position: absolute;
+        left: 68.5%;
+    }
+    #discordB h1{
+        position: absolute;
+        left: 73%;
+    }
+    #facebookSVG{
+        position: absolute;
+        left: 34%;
+    }
+    #facebookB h1{
+        position: absolute;
+        left: 37%;
+    }
+    #header{
+        padding: 15px;
+    }
+    #acountsForm{
+        height: 400px;
+        width: 60%;
+        position: absolute;
+        top: 200px;
+        left: 10%;
+    }
+    #logo{
+        height: 150px;
+        position: absolute;
+        left: 550px;
+        top: -30px;
+    }
+    .headerButtons{
+        position: relative;
+        top: -20px;
+    }
+    #PB{
+        position: relative;
+        top: -13px;
+    }
+}
