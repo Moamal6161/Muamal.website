@@ -1,0 +1,209 @@
+body{
+    background: #272727}
+#header{
+    position: fixed;
+    top: 0%;
+    left: -15%;
+    background-image: linear-gradient(to right, blue 40% ,cyan 50%,  darkblue);
+    z-index: 9999;
+    padding: 20px;
+    width: 120%;
+    height: 3%;
+    text-align: center;
+    border: 3px solid white;
+    box-shadow: 10px 10px 10px #202020;
+    animation: 10s headerAni infinite ;
+    transition-delay: 10s;
+    transition-duration: 10s;
+}
+#instagramIcon{
+    position: absolute;
+    top: 5px;
+    left: 15%;
+    transition-delay: 1s;
+    transition-duration: 1s;
+}
+#logo{
+    position: absolute; top: -20px; left: 47%;
+    height: 100px;
+}
+#instagramIcon:hover{
+    height: 55px;
+    width: 55px;
+    position: absolute;
+    top: 2px;
+    left: 14.8%;
+    cursor: pointer;
+}
+#youtubeIcon{
+    position: absolute;
+    top: 5px;
+    left: 20%;
+    transition-delay: 1s;
+    transition-duration: 1s;
+    cursor: pointer;
+}
+#youtubeIcon:hover{
+    height: 55px;
+    width: 55px;
+    position: absolute;
+    top: 2px;
+    left: 19.8%;
+}
+#HBS{
+    position: absolute;
+    left: 60%;
+}
+.headerButtons{
+    background: #272727;
+    border: 3px solid white;
+    height: 50px;
+    color: white;
+    width: 75px;
+    border-radius: 10px;
+    position: relative;
+    top: -30px;
+    margin: 10px;
+    cursor: pointer;
+    transition-delay: 0.2s;
+    transition-duration: 0.2s;
+}
+.headerButtons:hover{
+    border: 5px solid white;
+}
+#PB{
+    position: relative;
+    top: -23px;
+}
+#footer{
+    position: fixed;
+    bottom: 0%;
+    left: -15%;
+    background-image: linear-gradient(to left, cyan, rgb(255, 105, 255), blue);
+    transition-delay: 0.5s;
+    transition-duration: 0.5s;
+    z-index: 9999;
+    padding: 20px;
+    width: 120%;
+    height: 3%;
+    text-align: center;
+    border: 3px solid white;
+    box-shadow: 10px -10px 10px #202020
+}
+#divsForm div{
+    background:  transparent;
+    height: 250px;
+    width: 150px;
+    border: 3px solid white;
+    margin: 25px;
+    float: right;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 5px #626262;
+    color: white;
+    transition-delay: 0.5s;
+    transition-duration: 0.5s;
+    border-radius: 10px;
+}
+#divsForm h1{
+    color: white;
+}
+#divsForm div:hover{
+    box-shadow: 0px 0px 0px 5px white;
+}
+#divsForm{
+    height: 550px;
+    width: 40%;
+    position: absolute;
+    top: 60px;
+    left: 22%;
+    transition-delay: 0.1s;
+    transition-duration: 0.1s;
+}
+#divsForm h1{
+    position: absolute;
+    color: white;
+}
+#W1{
+    position: absolute;
+    top: 210px;
+    left: 370px;
+    font-size: 25px;
+}
+#W2{
+    position: absolute;
+    top: 210px;
+    left: 175px;
+    font-size: 25px;
+}
+#W3{
+    position: absolute;
+    top: 520px;
+    left: 370px;
+    font-size: 25px;
+}
+#W4{
+    position: absolute;
+    top: 520px;
+    left: 168px;
+    font-size: 25px;
+}
+#endpage{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 120%;
+}
+@media (max-width:1023px){
+    #header{
+        padding: 15px;
+        height: 2%;
+    }
+    #divsForm{
+        height: 400px;
+        width: 60%;
+        position: absolute;
+        top: 200px;
+        left: 10%;
+    }
+    #logo{
+        height: 100px;
+        position: absolute;
+        left: 580px;
+        top: -20px;
+    }
+    #divsForm div{
+        margin: 30px;
+    }
+    #W1{
+        position: absolute;
+        top: 210px;
+        left: 425px;
+        font-size: 20px;
+    }
+    #W2{
+        position: absolute;
+        top: 210px;
+        left: 210px;
+        font-size: 20px;
+    }
+    #W3{
+        position: absolute;
+        top: 520px;
+        left: 415px;
+        font-size: 20px;
+    }
+    #W4{
+        position: absolute;
+        top: 520px;
+        left: 220px;
+        font-size: 20px;
+    }
+    .headerButtons{
+        position: relative;
+        top: -20px;
+    }
+    #PB{
+        position: relative;
+        top: -13px;
+    }
+}
